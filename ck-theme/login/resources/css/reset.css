@@ -1,0 +1,36 @@
+/* Styles for the reset credentials page */
+.reset-section {
+    flex: 1;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.reset-box {
+    width: 100%;
+    max-width: 400px;
+}
+
+.reset-box h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.reset-box p {
+    margin-bottom: 30px;
+    color: var(--subtext-color);
+}
+
+.reset-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
